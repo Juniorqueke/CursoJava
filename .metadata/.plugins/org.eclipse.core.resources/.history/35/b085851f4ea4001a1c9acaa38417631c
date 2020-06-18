@@ -1,0 +1,22 @@
+package controle;
+
+import java.util.Scanner;
+
+public class WhileIndeterminado {
+
+	public static void main(String[] args) {
+		
+	Scanner entrada = new Scanner(System.in);
+	System.out.println("Digite a frase secreta");
+	String frase = entrada.next();
+	
+	while (entrada.equals("sair")) {
+		System.out.println("Você errou a frase secreta");
+	}
+	
+	
+	entrada.close();
+	
+	}
+
+}
