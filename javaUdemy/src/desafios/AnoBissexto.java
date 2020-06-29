@@ -1,10 +1,25 @@
 package desafios;
 
+import java.util.Scanner;
+
 public class AnoBissexto {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.println("Digite o ano atual ");
+		int ano = scanner.nextInt();
+
+		int bissexto = ano % 4;
+
+		if (bissexto == 0) {
+			System.out.println(ano + " é um ano bissexto");
+		} else {
+			System.out.println(ano + " não é um ano bissexto");
+		}
+		scanner.close();
+		
 	}
 
 }
