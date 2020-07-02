@@ -6,6 +6,7 @@ public class AnoBissexto {
 
 	public static void main(String[] args) {
 
+		// Criar um programa informa se o ano atual é um ano bissexto
 		Scanner scanner = new Scanner(System.in);
 
 		System.out.println("Digite o ano atual ");
@@ -19,7 +20,7 @@ public class AnoBissexto {
 			System.out.println(ano + " não é um ano bissexto");
 		}
 		scanner.close();
-		
+
 	}
 
 }
