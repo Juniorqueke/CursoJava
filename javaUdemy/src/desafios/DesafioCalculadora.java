@@ -8,13 +8,13 @@ public class DesafioCalculadora {
 		
 		Scanner entrada = new Scanner(System.in);
 			
-		System.out.print("Digite o primeiro n√∫mero");
+		System.out.print("Digite o primeiro numero");
 		double n1  = entrada.nextDouble();
 		
-		System.out.print("Digite o segundo n√∫mero");
+		System.out.print("Digite o segundo numero");
 		double n2 = entrada.nextDouble();
 		
-		System.out.print("Digite a opera√ß√£o aritim√©tica");
+		System.out.print("Digite a operaÁ„o aritimÈtica");
 		String operacao = entrada.next();
 		
 		double resultado = "+".equals(operacao) ? n1 + n2 : 0;

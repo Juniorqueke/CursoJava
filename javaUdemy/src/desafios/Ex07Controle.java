@@ -11,7 +11,6 @@ public class Ex07Controle {
 		 * imprime no console a soma dos números inseridos, caso receba um número
 		 * negativo, encerre o programa. Tente utilizar a estrutura do while.
 		 */
-
 		Scanner scanner = new Scanner(System.in);
 		int somadorDeNumeros = 0;
 		int numero = 0;
