@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
-    <entry loc="/usr/lib/jvm/java-14-openjdk-amd64" stamp="1590023455392"/>
+<entry loc="/usr/lib/jvm/java-14-openjdk-amd64" stamp="1590023455392"/>
+<entry loc="C:\Program Files\Java\jre1.8.0_261" stamp="1594942006561"/>
+<entry loc="C:\Program Files\Java\jre1.8.0_251" stamp="1586907909708"/>
 </dirs>
